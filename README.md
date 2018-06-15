@@ -21,7 +21,7 @@ Then in the callback I fetch the NetworkInfo from the available network using th
 
 At this point `networkInfo.getExtraInfo()` is returning `null` on Android P Beta, where it is returning the SSID on previous versions of Android. I wonder if this is a bug, or if it is intentional that we can’t get that extra (SSID) info as of Android P. I’ve got the `ACCESS_NETWORK_STATE` permission, so that’s not the issue. And again, it’s returning the extra info (SSID) fine for older Android versions.
 
-# Steps to reproduced
+# Steps to reproduce
 Enter the SSID and the mac address in the appropriate input fields and press the "Go!" button.
 
 **Note**: There's a work around for the fact that we get a security exception on Android 6.0 Marshmallow when calling `connectivityManager.requestNetwork(...)` 
