@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bug 109900820</string>
+
+    <string name="status_hint">Enter the SSID and the mac address (hex-pairs separated with ":" characters, e.g. "90:56:82:3f:00:67") of the (hotspot) network you want to connect to</string>
+    <string name="hint_ssid">Enter SSID</string>
+    <string name="hint_mac_address">Enter mac address</string>
+    <string name="button_go">Go!</string>
+
+    <!-- override these values with your hotspot ssid and mac address, to not have to type everything in every time -->
+    <string name="ssid">NODE-0066</string>
+    <string name="mac_address">90:56:82:3f:00:67</string>
+</resources>

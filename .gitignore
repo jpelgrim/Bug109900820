@@ -1,0 +1,10 @@
+captures/
+libraries/
+build/
+.gradle/
+.idea/
+local.properties
+*.iml
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+.DS_Store
