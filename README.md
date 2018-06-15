@@ -1,7 +1,7 @@
 # Bug109900820
 This is a sample project for [Bug 109900820](https://issuetracker.google.com/issues/109900820)
 
-Note: You need to know the SSID and the mac address of the network you're trying to connect to in this sample project. You can retrieve those values with e.g. the [Bonjour Browser](https://hobbyistsoftware.com/bonjourbrowser)
+Note: You need to know the SSID and the mac address of the network you're trying to connect to in this sample project. You can retrieve those values in the advanced network settings or sometimes with e.g. the [Bonjour Browser](https://hobbyistsoftware.com/bonjourbrowser) if your hotspot advertises its settings via mDNS.
 
 # Problem description
 In my app I'm trying to connect to a hotspot network and sending some wifi-configuration to a device on that hotspot network. I use the following to connect to the hotspot
