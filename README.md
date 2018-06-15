@@ -31,12 +31,12 @@ Enter the SSID and the mac address in the appropriate input fields and press the
 Even though we have `android.permission.CHANGE_NETWORK_STATE` in our manifest `¯\_(ツ)_/¯`
 
 # Sample output
-In the project I included a log statement which outputs the retrieved networkInfo object in the `onAvailable` method. On Android Marshmallow the extra info is the SSID I wanted to connect to 'NODE-0066':
+In the project I included a log statement which outputs the retrieved networkInfo object in the `onAvailable` method. On Android Marshmallow the extra info is the SSID I wanted to connect to `NODE-0066`:
 
     06-15 14:19:49.475 27358-27358/nl.codestone.bug109900820 I/MainActivity: connectivityManager.requestNetwork
     06-15 14:19:49.484 27358-27509/nl.codestone.bug109900820 D/MainActivity: networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "NODE-0066", roaming: false, failover: false, isAvailable: true]
 
-On Android P Beta the extra info is 'null':
+On Android P Beta the extra info is `null`:
 
     06-15 14:21:47.373 18649-18649/nl.codestone.bug109900820 I/MainActivity: connectivityManager.requestNetwork
     06-15 14:21:47.380 18649-19256/nl.codestone.bug109900820 D/MainActivity: networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
